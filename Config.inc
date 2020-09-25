@@ -18,8 +18,3 @@ VRamWarning = 80
 VRamTotal = 8079
 RamAlert = 90
 RamWarning = 80
-
-; --- skin config
-BarDivisor = 5
-ShowValuesInBars = 1
-HideOnDesktop = 0

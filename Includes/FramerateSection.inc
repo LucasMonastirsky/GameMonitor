@@ -1,5 +1,6 @@
 [FramerateGrid]
 Meter = Image
+Group = Graph
 ImageName = Images\FramerateGrid.png
 X = 0
 Y = ([CpuUsageBar:YH] + #Padding#)
@@ -10,6 +11,7 @@ UpdateDivider = -1
 
 [FramerateGraph]
 Meter = Line
+Group = Graph
 MeasureName = FramerateCapped
 MeasureName2 = CpuUsage
 X = 0r
@@ -25,6 +27,7 @@ DynamicVariables = 1
 [FramerateValue]
 Meter = String
 MeterStyle = TextFramerate
+Group = Framerate
 MeasureName = Framerate
 Text = "%1"
 X = 0r
@@ -33,6 +36,7 @@ NumOfDecimals = 0
 
 [SpacerFramerate]
 Meter = String
+; Group = Framerate
 FontColor = 255,255,255,1
 FontSize = #FramerateCounterSize#
 Text = "240"
@@ -42,6 +46,7 @@ Y = 0r
 [FramerateMinValue]
 Meter = String
 MeterStyle = TextFramerateMini
+Group = Framerate
 Text = min: #FramerateMin#
 X = 0R
 Y = #Padding#r
@@ -51,6 +56,7 @@ DynamicVariables = 1
 [TimeValue]
 Meter = String
 MeterStyle = TextFramerateMini
+Group = Framerate
 MeasureName = Time
 Text = "%1"
 X = 0r
