@@ -30,6 +30,7 @@ Shape = Line [CpuUsageBar:X],(#BarTop#+#BarMarkY#),[CpuUsageBar:XW],(#BarTop#+#B
 Shape2 = Line [CpuUsageBar:X],(#BarTop#+#BarMarkY#*2),[CpuUsageBar:XW],(#BarTop#+#BarMarkY#*2) | #BarMarkStyle2#
 Shape3 = Line [CpuUsageBar:X],(#BarTop#+#BarMarkY#*3),[CpuUsageBar:XW],(#BarTop#+#BarMarkY#*3) | #BarMarkStyle3#
 Shape4 = Line [CpuUsageBar:X],(#BarTop#+#BarMarkY#*4),[CpuUsageBar:XW],(#BarTop#+#BarMarkY#*4) | #BarMarkStyle4#
+Shape5 = Line [CpuUsageBar:X],#BarTop#,[CpuUsageBar:XW],#BarTop#, | #BarMarkStyle1#
 DynamicVariables = 1
 UpdateDivider = -1
 
@@ -52,6 +53,7 @@ Shape = Line [CpuTempBar:X],(#BarTop#+#BarMarkY#),[CpuTempBar:XW],(#BarTop#+#Bar
 Shape2 = Line [CpuTempBar:X],(#BarTop#+#BarMarkY#*2),[CpuTempBar:XW],(#BarTop#+#BarMarkY#*2) | #BarMarkStyle2#
 Shape3 = Line [CpuTempBar:X],(#BarTop#+#BarMarkY#*3),[CpuTempBar:XW],(#BarTop#+#BarMarkY#*3) | #BarMarkStyle3#
 Shape4 = Line [CpuTempBar:X],(#BarTop#+#BarMarkY#*4),[CpuTempBar:XW],(#BarTop#+#BarMarkY#*4) | #BarMarkStyle4#
+Shape5 = Line [CpuTempBar:X],#BarTop#,[CpuTempBar:XW],#BarTop#, | #BarMarkStyle1#
 DynamicVariables = 1
 UpdateDivider = -1
 
@@ -93,6 +95,7 @@ Shape = Line [GpuUsageBar:X],(#BarTop#+#BarMarkY#),[GpuUsageBar:XW],(#BarTop#+#B
 Shape2 = Line [GpuUsageBar:X],(#BarTop#+#BarMarkY#*2),[GpuUsageBar:XW],(#BarTop#+#BarMarkY#*2) | #BarMarkStyle2#
 Shape3 = Line [GpuUsageBar:X],(#BarTop#+#BarMarkY#*3),[GpuUsageBar:XW],(#BarTop#+#BarMarkY#*3) | #BarMarkStyle3#
 Shape4 = Line [GpuUsageBar:X],(#BarTop#+#BarMarkY#*4),[GpuUsageBar:XW],(#BarTop#+#BarMarkY#*4) | #BarMarkStyle4#
+Shape5 = Line [GpuUsageBar:X],#BarTop#,[GpuUsageBar:XW],#BarTop#, | #BarMarkStyle1#
 DynamicVariables = 1
 UpdateDivider = -1
 
@@ -115,6 +118,7 @@ Shape = Line [GpuTempBar:X],(#BarTop#+#BarMarkY#),[GpuTempBar:XW],(#BarTop#+#Bar
 Shape2 = Line [GpuTempBar:X],(#BarTop#+#BarMarkY#*2),[GpuTempBar:XW],(#BarTop#+#BarMarkY#*2) | #BarMarkStyle2#
 Shape3 = Line [GpuTempBar:X],(#BarTop#+#BarMarkY#*3),[GpuTempBar:XW],(#BarTop#+#BarMarkY#*3) | #BarMarkStyle3#
 Shape4 = Line [GpuTempBar:X],(#BarTop#+#BarMarkY#*4),[GpuTempBar:XW],(#BarTop#+#BarMarkY#*4) | #BarMarkStyle4#
+Shape5 = Line [GpuTempBar:X],#BarTop#,[GpuTempBar:XW],#BarTop#, | #BarMarkStyle1#
 DynamicVariables = 1
 UpdateDivider = -1
 
@@ -162,6 +166,7 @@ Shape = Line [VRamBar:X],(#BarTop#+#BarMarkY#),[VRamBar:XW],(#BarTop#+#BarMarkY#
 Shape2 = Line [VRamBar:X],(#BarTop#+#BarMarkY#*2),[VRamBar:XW],(#BarTop#+#BarMarkY#*2) | #BarMarkStyle2#
 Shape3 = Line [VRamBar:X],(#BarTop#+#BarMarkY#*3),[VRamBar:XW],(#BarTop#+#BarMarkY#*3) | #BarMarkStyle3#
 Shape4 = Line [VRamBar:X],(#BarTop#+#BarMarkY#*4),[VRamBar:XW],(#BarTop#+#BarMarkY#*4) | #BarMarkStyle4#
+Shape5 = Line [VRamBar:X],#BarTop#,[VRamBar:XW],#BarTop#, | #BarMarkStyle1#
 DynamicVariables = 1
 UpdateDivider = -1
 
@@ -184,6 +189,7 @@ Shape = Line [RamBar:X],(#BarTop#+#BarMarkY#),[RamBar:XW],(#BarTop#+#BarMarkY#) 
 Shape2 = Line [RamBar:X],(#BarTop#+#BarMarkY#*2),[RamBar:XW],(#BarTop#+#BarMarkY#*2) | #BarMarkStyle2#
 Shape3 = Line [RamBar:X],(#BarTop#+#BarMarkY#*3),[RamBar:XW],(#BarTop#+#BarMarkY#*3) | #BarMarkStyle3#
 Shape4 = Line [RamBar:X],(#BarTop#+#BarMarkY#*4),[RamBar:XW],(#BarTop#+#BarMarkY#*4) | #BarMarkStyle4#
+Shape5 = Line [RamBar:X],#BarTop#,[RamBar:XW],#BarTop#, | #BarMarkStyle1#
 DynamicVariables = 1
 UpdateDivider = -1
 

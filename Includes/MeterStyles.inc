@@ -6,8 +6,6 @@ FontWeight = 700
 AntiAlias = 1
 
 [TextFramerate]
-StringEffect = Border
-FontEffectColor = 0,0,0,255
 FontSize = #FramerateCounterSize#
 FontColor = #FontColor#
 FontWeight = 400
@@ -27,7 +25,7 @@ W = #BarWidth#
 H = #BarHeight#
 
 [TextMini]
-FontColor = #BackgroundColor#
+FontColor = #BarMarkerColor#
 FontSize = (#BarHeight# / 9)
 StringAlign = CenterCenter
 FontWeight = 600
@@ -39,5 +37,5 @@ AntiAlias = 1
 
 [Background]
 Meter = Shape
-Shape = Rectangle 0,0,[CalcWidth],([SpacerFramerate:YH]-#Padding#) | Fill Color #BackgroundColor#
+Shape = Rectangle 0,0,[CalcWidth],([SpacerFramerate:YH]-#Padding#) | Fill Color #BackgroundColor# | StrokeWidth #BackgroundBorderWidth#
 DynamicVariables = 1
