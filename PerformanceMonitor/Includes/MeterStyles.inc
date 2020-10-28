@@ -34,8 +34,3 @@ Text = %1
 Percentual = 1
 DynamicVariables = 1
 AntiAlias = 1
-
-[Background]
-Meter = Shape
-Shape = Rectangle 0,0,[CalcWidth],([SpacerFramerate:YH]-#Padding#) | Fill Color #BackgroundColor# | StrokeWidth #BackgroundBorderWidth#
-DynamicVariables = 1

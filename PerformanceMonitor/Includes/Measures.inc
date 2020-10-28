@@ -100,3 +100,15 @@ DynamicVariables = 1
 
 [Time]
 Measure = Time
+
+[Hour]
+Measure = Time
+Format = %H
+
+[Minute]
+Measure = Time
+Format = %M
+
+[Second]
+Measure = Time
+Format = %S
