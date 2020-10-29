@@ -1,7 +1,7 @@
 [FramerateGrid]
 Meter = Image
 Group = Graph
-ImageName = Images\FramerateGrid.png
+ImageName = GameMonitor\Images\FramerateGrid.png
 X = 0
 Y = ([CpuUsageBar:YH] + #Padding#)
 W = [CalcWidth]

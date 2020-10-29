@@ -1,7 +1,3 @@
-[Rainmeter]
-DefaultAlwaysOnTop = 2
-Update = 500
-
 [Variables]
 ; --- hardware config
 TargetFramerate = 144
