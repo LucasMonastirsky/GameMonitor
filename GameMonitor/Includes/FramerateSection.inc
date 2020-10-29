@@ -28,11 +28,17 @@ DynamicVariables = 1
 Meter = String
 MeterStyle = TextFramerate
 Group = Framerate
-MeasureName = Framerate
-Text = "%1"
+MeasureName = FramerateWithLeadingZero
 X = 0r
 Y = 0R
 NumOfDecimals = 0
+
+[FramerateWithLeadingZero]
+Measure = String
+String = [Framerate]
+RegExpSubstitute = 1
+Substitute = "(^\d{1})":"**\1","(\d{2})":"*\1","*":"0","000":""
+DynamicVariables = 1
 
 [SpacerFramerate]
 Meter = String
