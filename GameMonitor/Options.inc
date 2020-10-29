@@ -1,6 +1,6 @@
 [Variables]
 ; OPTIONS
-HideOnDesktop = 0
+HideOnDesktop = 1
 ShowLabels = 1
 ShowGraph = 1
 ShowValuesInBars = 1

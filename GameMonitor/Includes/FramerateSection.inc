@@ -35,7 +35,7 @@ NumOfDecimals = 0
 
 [FramerateWithLeadingZero]
 Measure = String
-String = [Framerate]
+String = [Framerate:0]
 RegExpSubstitute = 1
 Substitute = "(^\d{1})":"**\1","(\d{2})":"*\1","*":"0","000":""
 DynamicVariables = 1
